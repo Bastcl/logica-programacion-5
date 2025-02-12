@@ -122,10 +122,12 @@ button:active {
 
 .mensaje-verde {
     color: green;
+    font-size: 1.2rem;
 }
 
 .mensaje-rojo {
     color: red;
+    font-size: 1.2rem;
 }
 .again {
     font-size: 1.8rem;
