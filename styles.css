@@ -1,0 +1,133 @@
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(to right, #444cf7 1px, #e5e5f7 1px);
+    background-size: 20px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 350px;
+    min-width: 350px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: "Cherry Bomb One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #613ce7;
+    margin-bottom: 0;
+
+}
+span {
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.input {
+    width: 210px;
+    height: 50px;
+    border-radius: 7px;
+    border: 0;
+    outline: auto grey;
+    margin-bottom: 10px;
+    padding-inline: 20px;
+    font-size: 16px;
+    transform: all 200ms;
+}
+
+.input:focus {
+    text-decoration: underline 6px;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    border: 1px solid grey;
+}
+
+
+button {
+    --bg: #613ce7;
+    --text-color: #fff;
+    position: relative;
+    width: 250px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #490296 0px 7px 2px, #000 0px 8px 5px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+button:active {
+    top: 4px;
+    box-shadow: #3f026b 0px 3px 2px, #000 0px 3px 5px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+    .mensaje-verde, .mensaje-rojo{
+        font-size: 1.2rem;
+    }
+    
+    input,
+    button {
+        font-size: 1rem;
+    }
+}
+
+#lista-numeros {
+    color: rgb(215, 25, 248);
+    font-size: 18px;
+}
+
+.mensaje-verde {
+    color: green;
+}
+
+.mensaje-rojo {
+    color: red;
+}
+.again {
+    font-size: 1.8rem;
+    color: black;
+}
