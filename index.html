@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adivina el número</title>
-    <link rel="shortcut icon" href="https://img.icons8.com/fluency/48/where-to-quest.png" type="image/x-icon">
-    <link rel="stylesheet" href="./styles.css">
+    <title>Adivina el número secreto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/dusk/64/question-mark.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!-- Fuente pixelada -->
 </head>
 <body>
-    <main>
-        <h1>Hola mundo!</h1>
-    </main>
-    <script src="./script.js"></script>
+    <div class="container">
+        <h1>Adivina el número entre 1 y 100</h1>
+        <div class="group">
+            <input type="text" id="numero-usuario" placeholder="Ingresa un número">
+        </div>
+        <button id="adivinar-btn">Adivinar</button>
+        <div id="mensaje"></div>
+        <div id="lista-numeros"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

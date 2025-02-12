@@ -1,5 +1,4 @@
 const numeroSecreto = Math.floor(Math.random() * 100) + 1;
-
 const inputNumero = document.getElementById("numero-usuario");
 const botonAdivinar = document.getElementById("adivinar-btn");
 const mensajeDiv = document.getElementById("mensaje");
